@@ -32,7 +32,7 @@ const Footer = () => {
           <ul className="mt-8 flex justify-center gap-6 sm:mt-0 lg:justify-end">
             <li>
               <a
-                href="#"
+                href="https://www.facebook.com/anslem.nnakwe?mibextid=LQQJ4d"
                 rel="noreferrer"
                 target="_blank"
                 className="text-gray-700 transition hover:opacity-75"
@@ -45,19 +45,19 @@ const Footer = () => {
 
             <li>
               <a
-                href="#"
+                href="https://www.linkedin.com/in/nnakwe-anslem-534047189"
                 rel="noreferrer"
                 target="_blank"
                 className="text-gray-700 transition hover:opacity-75"
               >
-                <span className="sr-only">Instagram</span>
+                <span className="sr-only">LinkedIn</span>
                 <LinkedinIcon />
               </a>
             </li>
 
             <li>
               <a
-                href="#"
+                href="https://github.com/ansman58"
                 rel="noreferrer"
                 target="_blank"
                 className="text-gray-700 transition hover:opacity-75"
@@ -70,7 +70,7 @@ const Footer = () => {
 
             <li>
               <a
-                href="#"
+                href="https://www.x.com/javAnslem"
                 rel="noreferrer"
                 target="_blank"
                 className="text-gray-700 transition hover:opacity-75"

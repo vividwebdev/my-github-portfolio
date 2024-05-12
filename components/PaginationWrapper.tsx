@@ -1,8 +1,12 @@
+"use client";
+
 import React from "react";
 import ArrowLeftIcon from "./svgs/ArrowLeft";
 import ArrowRightIcon from "./svgs/ArrowRight";
 
-const PaginationWrapper = () => {
+interface Props {}
+
+const PaginationWrapper = (props: Props) => {
   return (
     <ol className="flex justify-center gap-1 text-xs font-medium">
       <li>

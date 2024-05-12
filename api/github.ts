@@ -10,6 +10,7 @@ export type IRefinedRepository = Partial<IRepository>;
 export const getAllRepos = async (): Promise<IRefinedRepository[]> => {
   try {
     const result = await octokit.request("GET /user/repos", {
+      
       headers: {
         Accept: "application/vnd.github.v3+json",
       },
@@ -32,7 +33,7 @@ export const getAllRepos = async (): Promise<IRefinedRepository[]> => {
 
 export const getASingleRepository = async (repo: string) => {
   const owner = "ansman58";
-  // const repo = "job-listing-3mtt";
+
   try {
     const result = await octokit.request(`GET /repos/${owner}/${repo}`, {
       owner,
