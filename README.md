@@ -3,9 +3,9 @@
 The website can be accessed from [here](https://git-repos-api-3mtt.vercel.app/)
 
 ## Pages
- [Home](https://git-repos-api-3mtt.vercel.app/)
- [NotFound](https://git-repos-api-3mtt.vercel.app/not-found)
- [ErrorBoundary](https://git-repos-api-3mtt.vercel.app/error-boundary)
+ - [Home](https://git-repos-api-3mtt.vercel.app/)
+ - [NotFound](https://git-repos-api-3mtt.vercel.app/not-found)
+ - [ErrorBoundary](https://git-repos-api-3mtt.vercel.app/error-boundary)
 
 ## More
 - The Error Boundary and 404 pages are also well implemented.
