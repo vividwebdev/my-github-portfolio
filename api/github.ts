@@ -20,6 +20,7 @@ export const getAllRepos = async (
 }> => {
   try {
     const result = await octokit.request("GET /user/repos", {
+      type: "owner",
       per_page: itemsPerPage,
       page: page,
       headers: {
