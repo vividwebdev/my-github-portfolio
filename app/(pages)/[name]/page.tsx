@@ -1,6 +1,7 @@
 import { getASingleRepository } from "@/api/github";
 import Profile from "@/components/Profile";
 import React from "react";
+import { Suspense } from "react";
 
 export default async function Page({
   params: { name },
@@ -10,11 +11,10 @@ export default async function Page({
   };
 }) {
   const repo = await getASingleRepository(name);
-  console.log("repo", repo);
+
   return (
-    <div>
+    <Suspense fallback={<p>Loading...</p>}>
       <Profile repository={repo} />
-      {/* <h1>{name}</h1> */}
-    </div>
+    </Suspense>
   );
 }
