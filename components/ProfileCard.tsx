@@ -12,7 +12,7 @@ const ProfileCard = (props: Props) => {
       href={`/${props.repository.name}`}
       className="relative block overflow-hidden rounded-lg border border-gray-100 p-4 sm:p-6 lg:p-8"
     >
-      <span className="absolute inset-x-0 bottom-0 h-2 bg-gradient-to-r from-green-300 via-blue-500 to-purple-600"></span>
+      <span className="absolute inset-x-0 bottom-0 h-2 bg-gradient-to-r from-purple-300 via-cyan-500 to-yellow-600"></span>
 
       <div className="sm:flex sm:justify-between sm:gap-4">
         <div>

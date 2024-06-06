@@ -48,7 +48,7 @@ export const getAllRepos = async (
 };
 
 export const getASingleRepository = async (repo: string) => {
-  const owner = "ansman58";
+  const owner = "vividwebdev";
 
   try {
     const result = await octokit.request(`GET /repos/${owner}/${repo}`, {
