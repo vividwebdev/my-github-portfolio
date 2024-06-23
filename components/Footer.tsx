@@ -32,7 +32,7 @@ const Footer = () => {
           <ul className="mt-8 flex justify-center gap-6 sm:mt-0 lg:justify-end">
             <li>
               <a
-                href="https://www.facebook.com/anslem.nnakwe?mibextid=LQQJ4d"
+                href="https://www.facebook.com/akinwumipeter.oni"
                 rel="noreferrer"
                 target="_blank"
                 className="text-gray-700 transition hover:opacity-75"
@@ -45,7 +45,7 @@ const Footer = () => {
 
             <li>
               <a
-                href="https://www.linkedin.com/in/nnakwe-anslem-534047189"
+                href="https://www.linkedin.com/in/akinwumi-oni"
                 rel="noreferrer"
                 target="_blank"
                 className="text-gray-700 transition hover:opacity-75"
@@ -57,7 +57,7 @@ const Footer = () => {
 
             <li>
               <a
-                href="https://x.com/javAnslem"
+                href="https://x.com/cephasdafree"
                 rel="noreferrer"
                 target="_blank"
                 className="text-gray-700 transition hover:opacity-75"
@@ -70,7 +70,7 @@ const Footer = () => {
 
             <li>
               <a
-                href="https://github.com/ansman58"
+                href="https://github.com/vividwebdev"
                 rel="noreferrer"
                 target="_blank"
                 className="text-gray-700 transition hover:opacity-75"
