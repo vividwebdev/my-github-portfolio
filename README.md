@@ -1,11 +1,11 @@
 ### Welcome to GitHub API Project
 
-The website can be accessed from [here](https://git-repos-api-3mtt.vercel.app/)
+The website can be accessed from [here](https://my-github-portfolio-coral.vercel.app)
 
 ## Pages
- - [Home](https://git-repos-api-3mtt.vercel.app/)
- - [NotFound](https://git-repos-api-3mtt.vercel.app/not-found)
- - [ErrorBoundary](https://git-repos-api-3mtt.vercel.app/error-boundary)
+ - [Home](https://my-github-portfolio-coral.vercel.app/)
+ - [NotFound](https://my-github-portfolio-coral.vercel.app/not-found)
+ - [ErrorBoundary](https://my-github-portfolio-coral.vercel.app/error-boundary)
 
 ## More
 - The Error Boundary and 404 pages are also well implemented.
